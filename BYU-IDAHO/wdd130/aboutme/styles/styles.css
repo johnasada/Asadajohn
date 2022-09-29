@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+nav {
+    background-color: rgb(70, 180, 76);
+    padding: 10px;
+}
+a {
+    color: white;
+    margin: 40;
+}
+h1{
+    color: rgb(180, 70, 70);
+}
+img{
+    width: 800px;
+    border: 4px solid steelblue;
+}
+p {
+    padding: 10px;
+}
+footer {
+    background-color: steelblue;
+    color: rgb(10, 9, 9);
+}
