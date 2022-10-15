@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&displayfamily=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&display=swap');
 
 
 #content {
@@ -9,7 +9,7 @@
 
 nav a {
     text-align: center;
-    color: #003049;
+    color: #e2730b;
     text-decoration: none;
     padding: 35px;
 }
@@ -46,26 +46,28 @@ main section {
 
 body {
     background-color: #003049;
-    font-size: 22px;
+    font-family:"Dancing Script";
+    font-size: 2em;
     margin: 0;
     padding: 0;
 
 }
 
 header {
-    background-color: #941404;
+    background-color: #043b19;
 }
 
 nav a:hover {
-    background-color: #d62828;
+    background-color: #032b1a;
     color: white;
 }
 
 .book,
 .join {
-    background-color: #941404;
+    background-color: #034118;
     color: white;
     text-decoration: none;
+    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -92,7 +94,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #941404;
+    background-color: #022e06;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -128,7 +130,7 @@ footer h3 {
 }
 
 footer a {
-    color: #003049;
+    color: #4f16d4;
     text-decoration: none;
 }
 
