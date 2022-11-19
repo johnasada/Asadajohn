@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&displayfamily=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+nav a {
+    text-align: center;
+    color: #e2730b;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+.botton-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #122838;
+    font-family:"Dancing Script";
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #043b19;
+}
+
+nav a:hover {
+    background-color: #032b1a;
+    color: white;
+}
+
+.book,
+.join {
+    background-color: #034118;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #d62828;
+    color: white;
+}
+
+#background {
+    background-color: #941404;
+
+}
+
+.msg {
+    background-color: #941404;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #003049;
+}
+
+footer {
+    background-color: #022e06;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.home-title {
+    color: white;
+    font-family: "Rock Salt", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: white;
+}
+
+.msg h2 {
+    color: white;
+    font-family: "Rock Salt", sans-serif;
+
+}
+
+.img p {
+    color: white;
+    font-size: .8em;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: #1050a3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapinds-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d62828;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.book {
+    text-align: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.book {
+    position: relative;
+    left: 300px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+
+}
+
+.card-img,
+.mountains {
+    width: 100%;
+}
+
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+    margin-top: 200px;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #003049;
+}
+
+
+.card-img {
+    border: 10px solid #941404;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #ff442b;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+/* css for rivers.html begins here */
+#river-head h1 {
+    text-align: center;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 3em;
+    color: white;
+
+}
+
+.river-grid h2 {
+    padding: 5px;
+    color: #a82727;
+}
+
+.river-grid img {
+    width: 400px;
+    height: 200px;
+    border: 10px solid #d62828;
+
+}
+
+.river-grid p {
+
+    color: beige;
+    font-size: 30px;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+
+
+
+
+}
+
+.first-river-card {
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+
+.first-river-card img {
+    float: right;
+    margin-top: 30px;
+
+}
+
+.second-river-card {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    position: relative;
+
+
+}
+
+.second-river-card img {
+    float: right;
+    margin-top: 25px;
+
+}
+
+.third-river-card {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    position: relative;
+}
+
+.third-river-card img {
+    float: left;
+    position: relative;
+    margin-top: 25px;
+}
+
+.contact-us a {
+    background-color: #941404;
+    color: black;
+    font-size: 4em;
+    position: relative;
+    margin-left: 540px;
+    border-radius: 30px;
+
+
+}
+
+.contact-us a:hover {
+    background-color: #003049;
+    color: white;
+}
+
+/* from here down is the css styling for the contactus.html file */
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px;
+    /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero-msg {
+        margin-top: 0;
+    }
+
+    #hero-msg h4 {
+        display: none;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}

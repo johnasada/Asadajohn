@@ -30,14 +30,14 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING!*/
 
 body {
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
 }
 img {
-  display: block;
+  display: table-caption;
   margin: 0 auto;
   max-width: 300px;
 }
@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: rgb(180, 57, 57);
 }
 .colors td{
   width: 25%;
