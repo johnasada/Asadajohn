@@ -34,7 +34,7 @@ a {
 }
 
 .botton-box {
-    text-align: center;
+    text-align: center
 }
 
 main section {
@@ -50,7 +50,7 @@ body {
     background-color: #ED254E;
     font-family:"Dancing Script";
     font-size: 2em;
-    margin: 0;
+    margin: auto;
     padding: 0;
 
 }
@@ -77,7 +77,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.book:hover,
+.apply:hover,
 .join:hover {
     background-color: #d62828;
     color: white;
@@ -178,7 +178,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-.rivers-card,
+.cultural-card,
 .camping-card,
 .rapinds-card {
     margin: 200px 0;
@@ -231,7 +231,7 @@ main section img {
     width: 100%;
 }
 
-.rivers-card {
+.cultural-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -311,7 +311,7 @@ main section img {
 
 }
 
-.first-river-card {
+.first-cultural-card {
     grid-column: 1/4;
     grid-row: 1/2;
 
@@ -495,7 +495,6 @@ button {
     #background {
         display: none;
     }
-
     .mountains,
     .msg {
         width: 80%;
