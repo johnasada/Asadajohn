@@ -180,7 +180,8 @@ footer .social img {
 
 .cultural-card,
 .camping-card,
-.rapinds-card {
+.rapinds-card,
+.baking-card {
     margin: 200px 0;
 }
 
@@ -246,6 +247,14 @@ main section img {
     grid-row: 2/3;
     margin-top: 200px;
 }
+
+.baking-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+
+}
+    
+   
 
 #background {
     grid-column: 1/11;
