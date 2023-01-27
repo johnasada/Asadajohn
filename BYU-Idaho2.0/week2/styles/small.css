@@ -1,0 +1,43 @@
+header{
+    background-color: #EF959C;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+h3{
+    background-color: #EF959C;
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+p{
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+}
+.images{
+    margin-top: 1.5em;
+    width: 200px;
+}
+#grid{
+    margin-top: 2em;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    text-align: center;
+}
+.first{
+    grid-column: 1/2;
+    border: solid 1px #EF959C;
+}
+.second{
+    grid-column: 2/3;
+}
+.third{
+    grid-column: 2/3;
+}
+footer{
+    background-color: #EF959C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+}

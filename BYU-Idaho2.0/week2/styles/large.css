@@ -1,0 +1,29 @@
+@media screen and (min-width: 42em){
+
+    .images{
+        width: 300px;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        grid-gap: 1em;
+    
+    }
+    .first{
+        grid-column: 1/2;
+        border: solid 1px #EF959C;
+    }
+    .second{
+        grid-column: 2/3;
+        border: solid 1px #EF959C;
+    }
+    .third{
+        grid-column: 3/4;
+        border: solid 1px #EF959C;
+    }
+    .third img{
+        width: 300px;
+    }
+    
+    }

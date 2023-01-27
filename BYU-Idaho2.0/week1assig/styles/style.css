@@ -13,7 +13,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color:lightcoral;
+    background-color:rgb(69, 32, 113);
     border-radius: 15px;
     padding: 20px;
     
@@ -31,6 +31,6 @@ header {
 
  footer {
     text-align: center;
-    background-color:lightcoral;
+    background-color:rgb(60, 66, 146);
     border-radius: 15px;
  }
