@@ -1,0 +1,33 @@
+@media only screen and (max-width: 35em) {
+    .container {
+      width: 100%;
+    }
+  
+    .container img {
+      width: 95%;
+    }
+  
+    .container_one {
+      grid-column: 2/17;
+    }
+  
+    .container_two {
+      grid-column: 2/17;
+      margin-top: 30px;
+    }
+  
+    .container_three {
+      grid-column: 2/17;
+      margin-top: 30px;
+      width: 100%;
+    }
+    .container_three img {
+      width: 98%;
+      height: 1500px;
+    }
+  
+    .container_footer {
+      height: 150px;
+    }
+  }
+  
