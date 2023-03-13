@@ -1,0 +1,82 @@
+@media screen and (min-width: 1064px) {
+      
+    /*Elements shared*/
+    /*header*/
+    header{
+        display: grid;
+        grid-template-rows: 250px 78px;
+    }
+    
+    header img{
+        width: 200px;
+        margin-top: 25px;
+    }
+    
+    header section.nav-bar{
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #b3581c;
+        font-family:  'Climate Crisis', cursive;
+        padding: 10px;
+    }
+
+    /*footer*/
+    footer{
+        flex-flow: row;
+    }
+
+    footer p{
+        font-size: 25px;
+    }
+
+    /*index.html*/
+    main#home-id img{
+      width: 500px;
+      height: 500px;
+    }
+
+    /*target-audience.html*/
+    #persona-section{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 50px;
+   }
+    /*design.html*/
+
+    main#design-id{
+        display: grid;
+    }
+
+    main#design-id h1{
+        text-align: center;
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    main#design-id p{
+        text-align: center;
+        margin: 0;
+    }
+
+    #colors{
+        grid-template-columns: repeat(4, 1fr);
+        margin: 50px;
+    }
+
+    #colors div{
+        width: 200px;
+        height: 200px;
+    }
+
+    #typography-grid{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat (7, 50px);
+        text-align: center;
+        margin: 50px;
+        border: 1px solid #b3581c;
+    }
+
+}

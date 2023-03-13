@@ -1,0 +1,282 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap');
+
+/*How to referance them in code:
+
+font-family: 'Merriweather', serif;
+
+font-family: 'Nunito', sans-serif;
+*/
+
+/*Shared between the pages code*/
+/*header code*/
+header{
+    display: flex;
+    flex-flow: column;
+}
+
+header img{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+header section.nav-bar{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3581c;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}
+
+a{
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #294d62;
+    border: 1px solid #ffff;
+}
+
+/*footer code*/
+footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5f79c8;
+    padding: 10px;
+}
+
+footer img{
+    width: 180px;
+}
+
+footer p{
+    font-family: 'Merriweather', serif;
+    color: #ffff;
+    font-size: 15px;
+}
+
+/*Other shared Elements*/
+h1{
+    font-family: 'Merriweather', serif;
+    color: #5f79c8;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #5f79c8;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #3c3f48;
+    font-size: 23px;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    color:#3c3f48;
+    font-size: 20px;
+}
+
+.titles{
+    font-family: 'Merriweather', serif;
+    color: #5f79c8;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    color: #3c3f48;
+    font-size: 17px;
+}
+
+/*index.html specific code*/
+/*Code in main on index.*/
+
+main#home-id{
+   display: grid;
+   align-items: center;
+   text-align: center;
+}
+
+main#home-id h1{
+    margin-top: 50px;
+}
+
+main#home-id p{
+    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main#home-id img{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*target-audience.html code*/
+/*Code in main*/
+main#target-audience-id{
+    display: grid;
+}
+
+main#target-audience-id h1{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main#target-audience-id p,
+main#target-audience-id h4{
+    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Section Grid code*/
+
+#persona-section{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr;
+     margin: 25px;
+}
+
+#persona-section p.bio{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #3c3f48;
+}
+
+#persona1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    background-color: rgb(249, 249, 212);
+    border: 1px solid #3c3f48;
+}
+
+#persona2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    background-color: rgb(249, 249, 212);
+    border: 1px solid #3c3f48;
+}
+
+
+/*design.html code*/
+
+main#design-id{
+    display: grid;
+}
+
+main#design-id h1{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+main#design-id p{
+    text-align: justify;
+}
+
+/*Colors grid*/
+#colors{
+    display: grid;
+    grid-template-columns: repeat(4, 67px);
+    grid-template-rows: 50px;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+}
+
+#colors div{
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#color-box1{
+    background-color: #b3581c;
+}
+
+#color-box2{
+    background-color: #ffff;
+    border: 1px solid #3c3f48;
+}
+
+#color-box3{
+    background-color: #3b5191;
+}
+
+#color-box4{
+    background-color: #294d62;
+}
+
+/*Typography Grid*/
+#typography-grid{
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    text-align: justify;
+    border: 0px;
+}
+
+#typography-grid p,
+#typography-grid h2,
+#typography-grid h3,
+#typography-grid h4{
+    margin: 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid #3c3f48;
+}
+
+.typography-color{
+    background-color: #b3581c;
+    color: #ffff;
+}
+
+#site-header{
+    color: #ffff;
+    font-size: 38px;
+    font-family: 'Climate Crisis', cursive;
+    background-color: #b3581c;
+}
+
+#primary-navigation{
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Climate Crisis', 'cursive';
+    background-color: #b3581c;
+}
+
+#footer-navigation{
+    color: #47258b;
+    font-size: 25px;
+    font-family: 'Climate Crisis','cursive';
+    background-color: #b3581c;
+}
